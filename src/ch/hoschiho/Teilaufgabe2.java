@@ -20,7 +20,7 @@ public class Teilaufgabe2 {
         //Teilaufgabe 2 (a)
 
         //Path to pk.txt file
-        Path pathPK = Paths.get("/Users/pascal/Google Drive/01_FHNW/iCompetence/02_Semester 2/01_Mada/01_RSA Implementierung/pk.txt");
+        Path pathPK = Paths.get("pk.txt");
 
         //read pk.txt to string
         String pkfile = Files.readString(pathPK, StandardCharsets.US_ASCII);
@@ -38,7 +38,7 @@ public class Teilaufgabe2 {
 
         //Teilaufgabe 2 (b)
         //path to text file
-        Path pathText = Paths.get("/Users/pascal/Google Drive/01_FHNW/iCompetence/02_Semester 2/01_Mada/01_RSA Implementierung/text.txt");
+        Path pathText = Paths.get("text.txt");
 
         //read file into string
         String textTXT = Files.readString(pathText, StandardCharsets.US_ASCII);

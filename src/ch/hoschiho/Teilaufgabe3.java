@@ -18,8 +18,7 @@ public class Teilaufgabe3 {
     public static void main(String[] args) throws IOException {
 
         //Path to sk.txt file
-        Path pathSK = Paths.get("/Users/pascal/Google Drive/01_FHNW/iCompetence/02_Semester 2/01_Mada/01_RSA Implementierung/sk.txt");
-        //Path pathSK = Paths.get("/Users/pascal/Google Drive/01_FHNW/iCompetence/02_Semester 2/01_Mada/Übungen/Programmieraufgabe-RSA/sk.txt");
+        Path pathSK = Paths.get("sk.txt");
 
 
         //read sk.txt to string
@@ -38,8 +37,7 @@ public class Teilaufgabe3 {
 
 
         //path to chiffre file
-        Path pathToChiffre = Paths.get("/Users/pascal/Google Drive/01_FHNW/iCompetence/02_Semester 2/01_Mada/01_RSA Implementierung/chiffre.txt");
-        //Path pathToChiffre = Paths.get("/Users/pascal/Google Drive/01_FHNW/iCompetence/02_Semester 2/01_Mada/Übungen/Programmieraufgabe-RSA/chiffre.txt");
+        Path pathToChiffre = Paths.get("chiffre.txt");
 
         //read file into string
         String chiffreTXT = Files.readString(pathToChiffre, StandardCharsets.US_ASCII);
