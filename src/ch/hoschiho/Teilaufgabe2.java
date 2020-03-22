@@ -1,4 +1,4 @@
-package com.company;
+package ch.hoschiho;
 
 
 import java.io.IOException;

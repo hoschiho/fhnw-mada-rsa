@@ -1,4 +1,4 @@
-package com.company;
+package ch.hoschiho;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -8,7 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import static com.company.Teilaufgabe2.SquareAndMultiply;
+import static ch.hoschiho.Teilaufgabe2.SquareAndMultiply;
 
 public class Teilaufgabe3 {
 
